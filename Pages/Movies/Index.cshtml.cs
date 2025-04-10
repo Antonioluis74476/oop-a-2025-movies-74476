@@ -43,13 +43,14 @@ namespace oop_a_2025_movies_74476.Pages.Movies
 
             if (!string.IsNullOrEmpty(SearchString))
             {
-                movies = movies.Where(s => s.Title.Contains(SearchString));
+                movies = movies.Where(s =>
+                    s.Title.Contains(SearchString) ||
+                    s.Director.Contains(SearchString) ||
+                    s.Genre.Contains(SearchString) ||
+                    s.ReleaseCountry.Contains(SearchString)
+                );
             }
 
-            if (!string.IsNullOrEmpty(MovieGenre))
-            {
-                movies = movies.Where(x => x.Genre == MovieGenre);
-            }
 
             // <snippet_search_selectList>
             Genres = new SelectList(await genreQuery.Distinct().ToListAsync());

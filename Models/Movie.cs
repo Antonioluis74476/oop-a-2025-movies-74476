@@ -28,7 +28,8 @@ namespace oop_a_2025_movies_74476.Models
         [RegularExpression(@"^[A-Z]+[a-zA-Z\s]*$"), Required, StringLength(30)]
         public string Director { get; set; } = string.Empty;
 
-        [RegularExpression(@"^[A-Z]+[a-zA-Z\s]*$"), Required, StringLength(50)]
+        [StringLength(100)] // or more if needed
+        [RegularExpression(@"^[A-Z].*$")]
         public string Cast { get; set; } = string.Empty;
 
 
