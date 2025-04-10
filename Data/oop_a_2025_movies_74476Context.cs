@@ -15,5 +15,6 @@ namespace oop_a_2025_movies_74476.Data
         }
 
         public DbSet<oop_a_2025_movies_74476.Models.Movie> Movie { get; set; } = default!;
+        public DbSet<Actor> Actor { get; set; } = default!;
     }
 }
