@@ -32,7 +32,7 @@ namespace oop_a_2025_movies_74476.Models // Match my project’s namespace
                         Price = 7.99M,
                         Rating = "R",
                         Director = "Rob Reiner",
-                        Cast = "Billy Crystal, Meg Ryan, Carrie Fisher, Bruno Kirby",
+                        Cast = "Billy Crystal, Meg Ryan",
                         IMDbRating= 7.6M,
                         BoxOfficeRevenue= 92823000M,
                         ReleaseCountry= "USA"
@@ -46,7 +46,7 @@ namespace oop_a_2025_movies_74476.Models // Match my project’s namespace
                         Price = 8.99M,
                         Rating = "R",
                         Director = "Ivan Reitman",
-                        Cast = "Bill Murray, Dan Aykroyd, Sigourney Weaver, Harold Ramis",
+                        Cast = "Bill Murray, Dan Aykroyd",
                         IMDbRating= 7.8M,
                         BoxOfficeRevenue = 295000000M,
                         ReleaseCountry="USA"
@@ -60,7 +60,7 @@ namespace oop_a_2025_movies_74476.Models // Match my project’s namespace
                         Price = 9.99M,
                         Rating = "R",
                         Director = "Ivan Reitman",
-                        Cast= "Bill Murray, Dan Aykroyd, Sigourney Weaver, Harold Ramis",
+                        Cast= "Bill Murray, Dan Aykroyd",
                         IMDbRating= 7.8M,
                         BoxOfficeRevenue= 395000000M,
                         ReleaseCountry = "USA"
@@ -75,7 +75,7 @@ namespace oop_a_2025_movies_74476.Models // Match my project’s namespace
                         Price = 3.99M,
                         Rating = "R",
                         Director = "Howard Hawks",
-                        Cast= "John Wayne, Dean Martin, Ricky Nelson, Angie Dickinson",
+                        Cast= "John Wayne, Dean Martin",
                         IMDbRating= 7.6M,
                         BoxOfficeRevenue= 5000000M,
                         ReleaseCountry="USA"
