@@ -30,7 +30,9 @@ namespace oop_a_2025_movies_74476.Models // Match my project’s namespace
                         ReleaseDate = DateTime.Parse("1989-2-12"),
                         Genre = "Romantic Comedy",
                         Price = 7.99M,
-                        Rating = "R"
+                        Rating = "R",
+                        Language = "English",
+                        Director = "Rob Reiner"
                     },
 
                     new Movie
@@ -39,7 +41,10 @@ namespace oop_a_2025_movies_74476.Models // Match my project’s namespace
                         ReleaseDate = DateTime.Parse("1984-3-13"),
                         Genre = "Comedy",
                         Price = 8.99M,
-                        Rating = "R"
+                        Rating = "R",
+                        Language = "English",
+                        Director = "Ivan Reitman"
+
                     },
 
                     new Movie
@@ -48,7 +53,9 @@ namespace oop_a_2025_movies_74476.Models // Match my project’s namespace
                         ReleaseDate = DateTime.Parse("1986-2-23"),
                         Genre = "Comedy",
                         Price = 9.99M,
-                        Rating = "R"
+                        Rating = "R",
+                        Language = "English",
+                        Director = "Ivan Reitman"
                     },
 
                     new Movie
@@ -57,7 +64,10 @@ namespace oop_a_2025_movies_74476.Models // Match my project’s namespace
                         ReleaseDate = DateTime.Parse("1959-4-15"),
                         Genre = "Western",
                         Price = 3.99M,
-                        Rating = "R"
+                        Rating = "R",
+                        Language = "English",
+                        Director = "Howard Hawks"
+
                     }
                 );
                 context.SaveChanges();
