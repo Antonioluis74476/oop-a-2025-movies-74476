@@ -31,8 +31,11 @@ namespace oop_a_2025_movies_74476.Models // Match my project’s namespace
                         Genre = "Romantic Comedy",
                         Price = 7.99M,
                         Rating = "R",
-                        Language = "English",
-                        Director = "Rob Reiner"
+                        Director = "Rob Reiner",
+                        Cast = "Billy Crystal, Meg Ryan, Carrie Fisher, Bruno Kirby",
+                        IMDbRating= 7.6M,
+                        BoxOfficeRevenue= 92823000M,
+                        ReleaseCountry= "USA"
                     },
 
                     new Movie
@@ -42,9 +45,11 @@ namespace oop_a_2025_movies_74476.Models // Match my project’s namespace
                         Genre = "Comedy",
                         Price = 8.99M,
                         Rating = "R",
-                        Language = "English",
-                        Director = "Ivan Reitman"
-
+                        Director = "Ivan Reitman",
+                        Cast = "Bill Murray, Dan Aykroyd, Sigourney Weaver, Harold Ramis",
+                        IMDbRating= 7.8M,
+                        BoxOfficeRevenue = 295000000M,
+                        ReleaseCountry="USA"
                     },
 
                     new Movie
@@ -54,8 +59,12 @@ namespace oop_a_2025_movies_74476.Models // Match my project’s namespace
                         Genre = "Comedy",
                         Price = 9.99M,
                         Rating = "R",
-                        Language = "English",
-                        Director = "Ivan Reitman"
+                        Director = "Ivan Reitman",
+                        Cast= "Bill Murray, Dan Aykroyd, Sigourney Weaver, Harold Ramis",
+                        IMDbRating= 7.8M,
+                        BoxOfficeRevenue= 395000000M,
+                        ReleaseCountry = "USA"
+
                     },
 
                     new Movie
@@ -65,8 +74,11 @@ namespace oop_a_2025_movies_74476.Models // Match my project’s namespace
                         Genre = "Western",
                         Price = 3.99M,
                         Rating = "R",
-                        Language = "English",
-                        Director = "Howard Hawks"
+                        Director = "Howard Hawks",
+                        Cast= "John Wayne, Dean Martin, Ricky Nelson, Angie Dickinson",
+                        IMDbRating= 7.6M,
+                        BoxOfficeRevenue= 5000000M,
+                        ReleaseCountry="USA"
 
                     }
                 );

@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using oop_a_2025_movies_74476.Data;
 
@@ -11,9 +12,11 @@ using oop_a_2025_movies_74476.Data;
 namespace oop_a_2025_movies_74476.Migrations
 {
     [DbContext(typeof(oop_a_2025_movies_74476Context))]
-    partial class oop_a_2025_movies_74476ContextModelSnapshot : ModelSnapshot
+    [Migration("20250410090132_SetDecimalPrecision")]
+    partial class SetDecimalPrecision
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

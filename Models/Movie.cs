@@ -23,9 +23,31 @@ namespace oop_a_2025_movies_74476.Models
         [RegularExpression(@"^[A-Z]+[a-zA-Z0-9""'\s-]*$"), StringLength(5)]
         public string Rating { get; set; } = string.Empty;
 
-        public string? Language { get; set; }
+        
 
         [RegularExpression(@"^[A-Z]+[a-zA-Z\s]*$"), Required, StringLength(30)]
         public string Director { get; set; } = string.Empty;
+
+        [RegularExpression(@"^[A-Z]+[a-zA-Z\s]*$"), Required, StringLength(50)]
+        public string Cast { get; set; } = string.Empty;
+
+
+
+        [Column(TypeName = "decimal(10,1)")]
+        public decimal IMDbRating { get; set; }
+
+        [Column(TypeName = "decimal(18,2)")]
+        public decimal BoxOfficeRevenue { get; set; }
+
+
+        [RegularExpression(@"^[A-Z]+[a-zA-Z\s]*$"), Required, StringLength(30)]
+        public string ReleaseCountry { get; set; } = string.Empty;
+
+
+
+
+
+
+
     }
 }
